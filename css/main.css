@@ -1,0 +1,371 @@
+body {
+	background-color: #EEEEEE;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+/* NAVIGATION */
+nav {
+	height: 150px;
+	width: 95%;
+	border-bottom: 1px solid #000000;
+	margin: 0 auto;
+}
+
+div.navigation {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.navigation .logo {
+	width: 10%;
+	height: 10%;
+}
+
+.navigation .logo-name {
+	font-family: 'Rochester';
+	font-size: 40px;
+	line-height: 140px;
+}
+
+.navigation ul {
+	height: 150px;
+	float: right;
+}
+
+.navigation li {
+	line-height: 140px;
+	display: inline;
+	padding: 0 20px;
+}
+
+.navigation a {
+	height: 60px;
+	text-decoration: none;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+}
+
+/* HEADER */
+header {
+	padding: 50px;
+}
+
+.header {
+	text-align: center;
+}
+
+.header h1 {
+	padding: 20px;
+}
+
+.header span {
+	color: #FF8DCE;
+}
+
+.header h2 {
+	font-size: 18px;
+}
+
+/* SUNSET IMAGE */
+div.sunset {
+	width: 95%;
+	margin: 0 auto;
+	height: 400px;
+	border-radius: 20px;
+	background-image: url("../images/sunset.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* TEXT */
+div.text {
+	width: 95%;
+	overflow: hidden;
+	font-size: 18px;
+	margin-bottom: 75px;
+}
+
+.text h1 {
+	font-family: 'Rochester';
+	color: #FF8DCE;
+	text-align: center;
+	padding: 30px;
+}
+
+div.about {
+	width: 45%;
+	float: left;
+	position: relative;
+	left: 60px;
+}
+
+div.mywork {
+	width: 45%;
+	float: right;
+}
+
+/* PHOTOS */
+div.photos {
+	width: 95%;
+	position: relative;
+	left: 30px;
+}
+
+.photos a {
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.photos a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.photos span {
+	font-family: 'Rochester';
+	color: #FF8DCE;
+	font-size: 18px;
+}
+
+div.spain {
+	background: url("../images/skiesofspain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.bahrain {
+	background: url("../images/beautifulbahrain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.wild-stripes {
+	background: url("../images/wildstripes.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.lazy-days {
+	background: url("../images/lazydays.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.trapped {
+	background: url("../images/trapped.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.quad-core {
+	background: url("../images/quadcore.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.retro-blast {
+	background: url("../images/retroblast.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.gates-of-the-sun {
+	background: url("../images/gatesofthesun.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.winter-touch {
+	background: url("../images/wintertouch.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+div.burn {
+	background: url("../images/burn.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 250px;
+	height: 200px;
+	float: left;
+	background-color: #FFFFFF;
+	border-radius: 15px 15px 0 0;
+	margin-left: 30px;
+	margin-bottom: 90px;
+}
+
+.photos .photo-footer {
+	border-radius: 0 0 15px 15px;
+	width: 235px;
+	height: 50px;
+	float: left;
+	background-color: #FFFFFF;
+	padding: 0 0 15px 15px;
+	display: inline;
+	margin-bottom: 30px;
+	position: relative;
+	top: 200px;
+	margin-right: 30px;
+}
+
+/* THANK YOU */
+section.thank-you {
+	vertical-align: top;
+}
+
+div.thank-you {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	bottom: 500px;
+}
+
+.thank-you h1 {
+	font-family: 'Rochester';
+	color: #FF8DCE;
+	font-size: 40px;
+	position: relative;
+	top: 600px;
+	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	background-color: #2D2D2D;
+	position: relative;
+	bottom: -100px;
+	height: 400px;
+	margin: 0;
+}
+
+.footer {
+	
+}
+
+.contact h1 {
+	font-size: 32px;
+	font-family: 'Rochester';
+	color: #FF8DCE;
+}
+
+div.contact {
+	display: inline-block;
+	width: 40%;
+	margin: 50px 50px 0 50px;
+}
+
+.footer textarea {
+	width: 600px;
+}
+
+div.send {
+	margin-top: 20px;
+}
+
+.footer .send {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer .send:hover {
+	text-decoration: underline;
+}
+
+.contact-icons {
+	float: right;
+    width: 50%;
+    text-align: right;
+    line-height: 400px;
+    margin-right: 50px;
+}
+
+.contact-icon {
+	display: inline;
+	padding-right: 20px;
+}
+
+.contact-icon a {
+	text-decoration: none;
+	color: #2D2D2D;
+}
+
+.contact-icon i {
+	color: #2D2D2D;
+	background-color: #FF8DCE;
+	border-radius: 50%;
+    padding: 5px 8px;
+}
