@@ -369,3 +369,19 @@ div.send {
 	border-radius: 50%;
     padding: 5px 8px;
 }
+
+/* RESPONSIVE */
+@media (max-width: 1000px){
+	div.navigation {
+		display: inline;
+	}
+
+	.navigation .logo {
+		width: 8%;
+		height: 50%;
+	}
+
+	.contact-icons {
+		line-height: 20px;
+	}
+}
